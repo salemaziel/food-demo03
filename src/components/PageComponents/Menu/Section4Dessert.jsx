@@ -2,6 +2,8 @@ import React from 'react'
 import MenuHeaderWhiteBg from './MenuHeaderWhiteBg'
 import MenuPanel from './MenuPanel'
 
+import Overlay3 from '../../../images/demo/default/overlay/overlay-3.png'
+
 
 const Section4Dessert = (props) => {
     return(
@@ -242,7 +244,7 @@ const Section4Dessert = (props) => {
                 </div>
               </div>
             </div>
-            <img className="tm-img-bottom-right" src="images/demo/default/overlay/overlay-3.png" alt="demo" width={250} height={200} />
+            <img className="tm-img-bottom-right" src={Overlay3} alt="demo" width={250} height={200} />
           </div>
         </div>
       </section>

@@ -8,6 +8,8 @@ import BreakfastBg from '../../../images/background/bg-image-2.jpg'
 import Section4Dessert from './Section4Dessert'
 import LogoWhite from '../.././../images/generic-logo-white.png'
 
+import Bg1 from '../../../images/background/bg-1.jpg'
+
 const MenuPage = (props) => {
     return(
 <>
@@ -289,7 +291,10 @@ const MenuPage = (props) => {
     </div>
   </div>*/}
   {/* bottom-e */}
-  <div id="tm-bottom-e" className="tm-block-bottom-e uk-block uk-block-default tm-inner-shadow tm-overlay-secondary" data-uk-parallax="{bg: '-200'}" style={{backgroundImage: 'url("images/background/bg-1.jpg")'}}>
+  <div id="tm-bottom-e" 
+  className="tm-block-bottom-e uk-block uk-block-default tm-inner-shadow tm-overlay-secondary" 
+  data-uk-parallax="{bg: '-200'}" 
+  style={{backgroundImage: `url(${Bg1})`}}>
     <div className="uk-container uk-container-center">
       <section className="tm-bottom-e uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
         <div className="uk-width-1-1">
