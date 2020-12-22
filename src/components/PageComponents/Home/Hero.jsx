@@ -31,8 +31,10 @@ const Hero = () => (
         <Row className={heroStyles.qcRow}>
 
         <Col >
-        <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608597423/viadelweb/logo-stuff/logo_c66qvi.png" alt="Food Demo 3 Logo" className="d-block" style={{}}  
+        <div className="NoDesktop">
+        <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png" alt="Food Demo 3 Logo" className="d-block NoDesktop" style={{}}  
         />
+        </div>
 
         <div className="text-center NoDesktop">
           <h2 className="NoDesktop text-white text-center font-italic">
@@ -41,7 +43,7 @@ const Hero = () => (
 {/*<h4 className="NoDesktop text-white text-center ">- Dolly Parton</h4>*/}
 </div> 
           <div className="NoMobile">
-            <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608597423/viadelweb/logo-stuff/logo_c66qvi.png" alt="Food Demo 3 Logo" className="logoHero" />
+            <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png" alt="Food Demo 3 Logo" className="logoHero" />
           </div>
 
         </Col>

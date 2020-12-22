@@ -51,7 +51,7 @@ const NavbarCustom = (props) => {
               <img
                 className={scroll ? "d-inline-block align-top navLogo" : "hide"}
                 /*src={LogoSquare}*/
-                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608597423/viadelweb/logo-stuff/logo-white-shadow-100x_f4gt9x.png"
+                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png"
                 alt="Via Del Web Logo"
               ></img>
             </Link>
@@ -60,7 +60,7 @@ const NavbarCustom = (props) => {
               <img
                 className={scroll ? "hide" : "d-inline-block align-top navLogo" }
                 /*src={LogoSquare}*/
-                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608597423/viadelweb/logo-stuff/logo_c66qvi.png"
+                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png"
                 alt="Via Del Web Logo"
               ></img>
             </Link>
@@ -131,6 +131,17 @@ const NavbarCustom = (props) => {
                   Faq
                 </Nav.Link>
               </Nav.Item>
+              <Nav.Item to="/" className={navStyles.navItem}>
+                <Nav.Link as={Link} to="/#" active={false}>
+                  Gallery
+                </Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item to="/" className={navStyles.navItem}>
+                <Nav.Link as={Link} to="/#" active={false}>
+                  Events
+                </Nav.Link>
+              </Nav.Item>
 
               {/*<Nav.Item to="/faq" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/faq" active={false}>
@@ -143,7 +154,7 @@ const NavbarCustom = (props) => {
                   Services
                 </Nav.Link>
         </Nav.Item>*/}
-              <NavDropdown
+              {/*<NavDropdown
                 as={Link}
                 href="/services"
                 to="/service"
@@ -170,7 +181,7 @@ const NavbarCustom = (props) => {
                   {" "}
                   Item{" "}
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown>*/}
 
 
               {/*<NavDropdown

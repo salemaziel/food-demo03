@@ -1,6 +1,7 @@
 .Footer {
   /*background-color: rgba(21, 27, 33, 0.6);*/
-  background: linear-gradient(60deg, #543ab7 0%, #00acc1 100%);
+  /*background: linear-gradient(60deg, #543ab7 0%, #00acc1 100%);*/
+  background-color: #271514;
   color: #ffffff;
   /*background-image: url('../images/field-of-flowers.jpg');*/
   background-position:  center bottom;

@@ -12,6 +12,8 @@ import Header1 from "../../../images/demo/default/slider/1.jpg";
 import Hero from "./Hero";
 import Section2Favs from './Section2Favs'
 
+import WoodFloor1 from '../../../images/background/bg-1.jpg'
+
 //import ToTopScroller from '../../toTopScroller'
 
 const Homepage = () => (
@@ -22,13 +24,13 @@ const Homepage = () => (
     <Section2Favs />
 
     <HeroSectionTxtBtnRight
-      bg="white"
-      textColor="dark"
+      bg="darkbrown"
+      textColor="light"
       size="md"
       bgImage=""
       bgImageOpacity={0.8}
-      title="Get Online"
-      subtitle="Our digital marketing agency can assist you with all your marketing needs. All the way from search engine optimization campaigns, to customized PPC campaigns and even website design solutions."
+      title="Order Online"
+      subtitle="Our online menu allows you to place an order for pickup, with the option to pay at checkout. Add-ons include delivery service!"
       description1=""
       description2=""
       description3=""
@@ -37,8 +39,8 @@ const Homepage = () => (
       description6=""
       description7=""
       buttonText="Get Started"
-      buttonColor="primary"
-      image="https://res.cloudinary.com/dexdumfqy/image/upload/v1600836618/rbl-art-designs/digital-marketing-1433427_1920_ikotj9.jpg"
+      buttonColor="yellow"
+      image="https://res.cloudinary.com/dexdumfqy/image/upload/v1600149824/rbl-art-designs/stock-photo-homemade-carne-asada-street-tacos-with-cheese-cilantro-and-onion-413734795-1500x1000_mqxj0e.jpg"
       link="/#"
       /*buttonOnClick={() => {
           // Navigate to pricing page
@@ -50,15 +52,15 @@ const Homepage = () => (
       bg="dark"
       textColor="white"
       size="md"
-      bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1600837824/rbl-art-designs/smartphone-1894723_1920_yti9if.jpg"
+      bgImage={WoodFloor1}
       bgImageOpacity={0.8}
-      title="Schedule A Consultation"
+      title="Reserve A Table"
       subtitle=""
       buttonText="Get Started"
-      buttonColor="primary"
+      buttonColor="yellow"
       buttonOnClick={() => {
         // Navigate to pricing page
-        navigateTo("/about");
+        navigateTo("/#");
       }}
     />
   </>

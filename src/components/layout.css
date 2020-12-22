@@ -10,6 +10,11 @@
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 2px 2px rgba(0, 0, 0, 0.05);
 }
 
+.btn-yellow {
+    background-color: #d2c82a;
+    color: white;
+    border-color: #d2c82a;
+}
 
 
 /****************** Show/Hide *******************/
