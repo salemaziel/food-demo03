@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Overpass+Mono:600,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+$OverpassMonoFont: 'Overpass Mono', monospace;
+$PTSansFont: 'PT Sans', sans-serif;
+$AlexBrushFont: 'Alex Brush', cursive;
+$lightbrown: rgb(190, 128, 64);
+$white: rgb(255,255,255);
+$black: rgb(0,0,0);
+$darkgray: rgb(20,20,20);
+$lightgray: rgb(35,35,35);
+
+/*
+  GLOBAL
+* /
+h2 {
+  margin-top:0;
+}
+button {
+  border:0;
+  background:0;
+  cursor:pointer;
+}
+a {
+  text-decoration:none;
+  padding-bottom:5px;
+}
+ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+*/
+
+/*
+  CLASSES
+*/
+.custom-font {
+  font-family:$AlexBrushFont;
+  color:$lightbrown;
+  font-size:75px;
+  line-height:0;
+}
+
+.add-padding {
+  padding:25px;
+}
+
+.center-text {
+  text-align:center;
+  margin-bottom:40px;
+  margin-top:30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  @media screen and (max-width: 980px){
+    margin-left: auto;
+    margin-right: auto;
+  }
+  color:rgb(77, 77, 77);
+  h2 {
+    margin-top:25px;
+    line-height:0;
+  }
+  p {
+    margin-top:0;
+    font-family: $PTSansFont;
+    line-height:1.5;
+  }
+  a {
+    font-family: $PTSansFont;
+    color:$lightbrown;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:1px;
+    border-bottom:solid 2px $lightbrown; 
+  }
+}
+
+.add-flex {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  @media screen and (max-width: 980px) {
+    flex-direction: column;
+  }
+  .stuffed-cherries {
+    background:url('https://s-media-cache-ak0.pinimg.com/736x/61/b1/98/61b19844448b2bad5c78e9a2c6347986.jpg')no-repeat center center;
+    background-size:cover;
+    height:315px;
+    width:320px;
+  }
+}
+
+.center-h1 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.custom-h1 {
+  text-align:center;
+  color:$white;
+  letter-spacing:5px;
+  margin-bottom:0;
+  span {
+    letter-spacing:0;
+  }
+}
+
+/*
+  MENU SECTION
+*/
+.menu {
+  padding:30px;
+  &-images {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:10px;
+    img {
+      width:100%;
+    }
+  }
+}

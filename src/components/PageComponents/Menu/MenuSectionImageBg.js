@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Fade from 'react-reveal/Fade'
 
 const MenuSectionImageBg = (props) => {
     return(
@@ -16,12 +16,16 @@ const MenuSectionImageBg = (props) => {
                   }} 
                   data-uk-parallax="{bg: '-200'}">
                   <div className="uk-position-relative uk-container">
+                  <Fade top>
                     <div data-uk-parallax="{opacity: '0,1', scale: '0.75,1', viewport: '0.5'}">
+
                       <h1 className="uk-module-title-alt uk-margin-top">{props.Title}</h1>
                       <h3 className="uk-sub-title">
                       {props.Subtitle}
                       </h3>
                     </div>
+                    </Fade>
+
                   </div>
                 </div>
               </div>

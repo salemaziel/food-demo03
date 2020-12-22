@@ -293,7 +293,7 @@ const MenuPage = (props) => {
       <section className="tm-bottom-e uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
         <div className="uk-width-1-1">
           <div className="uk-panel uk-text-center">
-            <img src="images/demo/default/logo/logo-bottom.svg" width={300} height={120} alt="demo" />
+            <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png" width={300} alt="demo" />
           </div>
         </div>
       </section>

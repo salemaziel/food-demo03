@@ -3,23 +3,23 @@ import { Link, navigateTo } from "gatsby";
 
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Dropdown from "react-bootstrap/Dropdown";
+//import NavDropdown from "react-bootstrap/NavDropdown";
+//import Dropdown from "react-bootstrap/Dropdown";
 
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import SideNav from "react-simple-sidenav";
-import NavItem from 'react-bootstrap/NavItem'
-import NavLink from 'react-bootstrap/NavLink'
+//import NavItem from 'react-bootstrap/NavItem'
+//import NavLink from 'react-bootstrap/NavLink'
 
-import FaqNav from './FaqNav'
+//import FaqNav from './FaqNav'
 
 import navStyles from "./navbar.module.css";
 //import { LogoSquare } from "../images/index";
 
 import { FaHome } from "react-icons/fa";
 
-import TopBar from '../topBar'
+//import TopBar from '../topBar'
 
 //then
 
@@ -51,7 +51,7 @@ const NavbarCustom = (props) => {
               <img
                 className={scroll ? "d-inline-block align-top navLogo" : "hide"}
                 /*src={LogoSquare}*/
-                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png"
+                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608665507/rbl-art-designs/generic-logo-white_sjpuyn.png"
                 alt="Via Del Web Logo"
               ></img>
             </Link>
@@ -60,7 +60,7 @@ const NavbarCustom = (props) => {
               <img
                 className={scroll ? "hide" : "d-inline-block align-top navLogo" }
                 /*src={LogoSquare}*/
-                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png"
+                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608665507/rbl-art-designs/generic-logo-white_sjpuyn.png"
                 alt="Via Del Web Logo"
               ></img>
             </Link>

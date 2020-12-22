@@ -1,10 +1,10 @@
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import { Button, Navbar, Nav, NavItem } from "react-bootstrap";
+//import { Button, Navbar, Nav, NavItem } from "react-bootstrap";
 import NavbarCustom from './NavbarSideNavDropdown/NavbarCustom'
 //import NavbarTheme from './NavbarTheme'
-import TopBar from './topBar'
+//import TopBar from './topBar'
 //import NavOffCanvas from './NavMobileOffcanvas'
 
 const Header = ({ siteTitle }) => (

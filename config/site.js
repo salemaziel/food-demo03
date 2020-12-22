@@ -3,8 +3,8 @@ module.exports = {
     title: 'Custom Restaurant Example', // Navigation and Site Title
     titleAlt: 'Restaurant Template 3', // Title for JSONLD
     description: 'Restaurant Template 3',
-    url: 'https://food-demo3.rblart.design', // Domain of your site. No trailing slash!
-    siteUrl: 'https://food-demo3.rblart.design/', // url + pathPrefix
+    url: 'https://food-demo03.viadelweb.com', // Domain of your site. No trailing slash!
+    siteUrl: 'https://food-demo03.viadelweb.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
     logo: 'static/logo/logo.png', // Used for SEO
     banner: 'static/logo/banner.png',

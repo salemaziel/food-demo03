@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
-import { FaEnvelope, FaInstagram, FaFacebook, FaTwitter, FaResearchgate, FaLinkedin } from 'react-icons/fa'
+import {  FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa'
 
 
 import footerStyles from "./footer.module.css";

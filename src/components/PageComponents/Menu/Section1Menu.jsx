@@ -1,7 +1,7 @@
 import React from "react";
 import MenuPanel from "./MenuPanel";
 import MenuHeaderWhiteBg from "./MenuHeaderWhiteBg";
-import MenuPanel2 from "./MenuPanel2";
+//import MenuPanel2 from "./MenuPanel2";
 
 const Section1Menu = (props) => {
   return (

@@ -5,7 +5,8 @@ import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
 
 
-import HeroImage from '../../../images/background/bg-image-4.jpg'
+//import HeroImage from '../../../images/background/bg-image-4.jpg'
+
 //import Logo from '../../../images/logo-image.png'
 
 import LazyHero from 'react-lazy-hero'
@@ -18,7 +19,7 @@ const Hero = () => (
   <section /*className={heroStyles.HeroSection}*/>
   <LazyHero
         /*imageSrc={props.bgImage}*/
-        imageSrc={HeroImage}
+        imageSrc="https://res.cloudinary.com/dexdumfqy/image/upload/v1608672766/rbl-art-designs/pexels-ella-olsson-1640774_snwle8.jpg"
         isCentered={true}
         isFixed={true}
         minHeight="100vh"
@@ -32,7 +33,7 @@ const Hero = () => (
 
         <Col >
         <div className="NoDesktop">
-        <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png" alt="Food Demo 3 Logo" className="d-block NoDesktop" style={{}}  
+        <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608665507/rbl-art-designs/generic-logo-white_sjpuyn.png" alt="Food Demo 3 Logo" className="d-block NoDesktop" style={{}}  
         />
         </div>
 
@@ -43,7 +44,7 @@ const Hero = () => (
 {/*<h4 className="NoDesktop text-white text-center ">- Dolly Parton</h4>*/}
 </div> 
           <div className="NoMobile">
-            <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png" alt="Food Demo 3 Logo" className="logoHero" />
+            <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608665507/rbl-art-designs/generic-logo-white_sjpuyn.png" alt="Food Demo 3 Logo" className="logoHero" />
           </div>
 
         </Col>

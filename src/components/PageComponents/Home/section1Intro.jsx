@@ -12,7 +12,7 @@ const Section1Intro = (props) => {
   <div id="tm-logo">
     <div className="uk-container uk-container-center">
       <a className="tm-logo uk-hidden-small uk-flex uk-flex-middle uk-flex-center" href="index.html">
-        <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png" width={200} height={120} alt="demo" />
+        <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png" width={200} alt="demo" />
       </a>
     </div>
   </div>

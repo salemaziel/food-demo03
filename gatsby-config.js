@@ -65,13 +65,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-basic-bootstrap`,
-        short_name: `starter`,
+        name: `Custom Restaurant Example`,
+        short_name: `Custom Restaurant`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#271514`,
+        theme_color: `#271514`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/logo/favicon.png`, // This path is relative to the root of the site.
       },
     },
     { 
