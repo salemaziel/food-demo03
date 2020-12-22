@@ -3,17 +3,20 @@ import MenuHeaderWhiteBg from "../Menu/MenuHeaderWhiteBg";
 import MenuPanel from "../Menu/MenuPanel";
 import Section from "../../Section";
 import { Container } from "react-bootstrap";
-
+import Fade from 'react-reveal/Fade'
 
 const Section2Favs = (props) => {
     return(
         <>
     <Section bg="white" textColor="" bgImage="" bgImageOpacity="" className="">
       <Container>
+        <Fade top>
         <MenuHeaderWhiteBg
           HeaderTitle="Customer Favorites"
           HeaderSubtitle="served with bread and butter"
         />
+        </Fade>
+        <Fade top>
         <div
           className="uk-grid uk-grid-width-medium-1-2 uk-grid-width-large-1-3"
           data-uk-grid-margin
@@ -79,6 +82,7 @@ const Section2Favs = (props) => {
             ]}
           />
         </div>
+        </Fade>
       </Container>
     </Section>
 

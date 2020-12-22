@@ -14,6 +14,8 @@ import Section2Favs from './Section2Favs'
 
 import WoodFloor1 from '../../../images/background/bg-1.jpg'
 
+import Fade from 'react-reveal/Fade'
+
 //import ToTopScroller from '../../toTopScroller'
 
 const Homepage = () => (
@@ -22,7 +24,7 @@ const Homepage = () => (
 
     <Section1Intro />
     <Section2Favs />
-
+<Fade top>
     <HeroSectionTxtBtnRight
       bg="darkbrown"
       textColor="light"
@@ -47,7 +49,8 @@ const Homepage = () => (
           navigateTo("/");
         }}*/
     />
-
+    </Fade>
+    <Fade top>
     <CtaSectionBgImage
       bg="dark"
       textColor="white"
@@ -63,6 +66,7 @@ const Homepage = () => (
         navigateTo("/#");
       }}
     />
+    </Fade>
   </>
 );
 
