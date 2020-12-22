@@ -242,60 +242,70 @@ const NavbarCustom = (props) => {
               backgroundColor: "transparent",
               color: "black",
               margin: "auto",
-              padding: '0',
+              padding: '1rem',
             }}
             items={[
               <Link rel="preload" className={navStyles.navItem} to="/">
                 <FaHome />
               </Link>,
-              <Link rel="preload" className={navStyles.navItem} to="/">
-                About Us
-              </Link>,
-            <FaqNav
-            items={[
-              {
-                question: "Services",
-                answer:
-                  "",
-                  listItem1: '',
-                  listItem2: '',
-                  linkTitle1: 'Item',
-                  link1: '/#',
-                  linkTitle2: 'Item',
-                  link2: '/#',
-                  linkTitle3: 'Item',
-                  link3: '/#',
-                  linkTitle4: 'Item',
-                  link4: '/#',
-                  linkTitle5: 'Item',
-                  link5: '/#',
+                            <Link
+                            rel="preload"
+                            className={navStyles.navItem}
+                            to="/menu"
+                          >
+                            Menu
+                          </Link>,
 
-              },
-            ]}
-          />,
+//            <FaqNav
+//            items={[
+//              {
+//                question: "Services",
+//                answer:
+//                  "",
+//                  listItem1: '',
+//                  listItem2: '',
+//                  linkTitle1: 'Item',
+//                  link1: '/#',
+//                  linkTitle2: 'Item',
+//                  link2: '/#',
+//                  linkTitle3: 'Item',
+//                  link3: '/#',
+//                  linkTitle4: 'Item',
+//                  link4: '/#',
+//                  linkTitle5: 'Item',
+//                  link5: '/#',
+//
+//              },
+//            ]}
+//          />,
+
               <Link
                 rel="preload"
                 className={navStyles.navItem}
-                to="/en/home#"
+                to="/#"
               >
-                Who We Help
+                Faq
               </Link>,
+                            <Link
+                            rel="preload"
+                            className={navStyles.navItem}
+                            to="/#"
+                          >
+                            Events
+                          </Link>,
               <Link
-                rel="preload"
-                className={navStyles.navItem}
-                to="/contact"
-              >
-                Contact
-              </Link>,
+              rel="preload"
+              className={navStyles.navItem}
+              to="/#"
+            >
+              Gallery
+            </Link>,
+                          <Link rel="preload" className={navStyles.navItem} to="/">
+                          About Us
+                        </Link>,
+                        <Button as={Link} to="/contact" className="uk-button-primary uk-button-large uk-button btn-lg px-5 py-2">Contact</Button>
 
-              <a
-                rel="nofollow"
-                target="_blank"
-                href="https://app.viadelweb.com"
-                className={navStyles.navItem}
-              >
-                Client Login
-              </a>,
+
             ]}
             itemStyle={{
               background: "transparent!important",
@@ -309,7 +319,7 @@ const NavbarCustom = (props) => {
             }}
             navStyle={{
               width: "70%",
-              background: "linear-gradient(60deg, #543ab7 0%, #00acc1 100%)",
+              background: "linear-gradient(60deg, #796867 0%, #271514 100%)",
               color: "inherit",
               maxHeight: "100vh",
             }}
