@@ -39,7 +39,7 @@ const SectionPhotoSideCaption = (props) => {
             </Fade>
             <Fade bottom>
             <img
-              src={props.Pic3}
+              src={props.Pic4}
               alt="food pic 4"
 
             />

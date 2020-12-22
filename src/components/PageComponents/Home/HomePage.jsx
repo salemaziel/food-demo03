@@ -11,7 +11,17 @@ import Section2Favs from './Section2Favs'
 import MenuSectionImageBg from '../Menu/MenuSectionImageBg'
 
 import WoodFloor1 from '../../../images/background/bg-1.jpg'
-//import FoodBowlBg from '../../../images/pexels-anthony-leong-2092897.jpg'
+import FoodBowlBg from '../../../images/jpg/pexels-anthony-leong-2092897-1920x.jpg'
+import OaxacaBg from '../../../images/oaxaca-3128326_1920_muaiuw.png'
+import CarneTaco from '../../../images/jpg/stock-photo-homemade-carne-asada-street-tacos-with-cheese-cilantro-and-onion-413734795-570x380.jpg'
+
+import FoodPic1 from '../../../images/delikatesa4.jpg'
+import FoodPic2 from '../../../images/delikatesa2.jpg'
+import FoodPic3 from '../../../images/delikatesa3.png'
+import FoodPic4 from '../../../images/delikatesa1.jpg'
+
+
+
 import Fade from 'react-reveal/Fade'
 
 import SectionPhotoSideCaption from '../../SectionPhotoSideCaption'
@@ -24,10 +34,10 @@ const Homepage = () => (
 
     <Section1Intro />
     <SectionPhotoSideCaption
-        Pic1="https://www.konoba-mirakul.com/wp-content/uploads/2015/03/delikatesa4.jpg"
-        Pic2="https://www.konoba-mirakul.com/wp-content/uploads/2015/03/delikatesa21.jpg"
-        Pic3="https://www.gourmetsociety.co.uk/uploads/images/restaurants/093ce538894c95892f62dc93bb023636-image.png"
-        Pic4="https://retrokitchenbar.com/wp-content/uploads/2014/05/menu-thumb-4-300x218.jpg"
+        Pic1={FoodPic1}
+        Pic2={FoodPic2}
+        Pic3={FoodPic3}
+        Pic4={FoodPic4}
         CursiveTitle="Discover"
         SubTitle="MENU"
         Description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -40,7 +50,8 @@ const Homepage = () => (
   <MenuSectionImageBg
   Title="Morning Breakfast"
   Subtitle="Begin your day by indulging in a hearty breakfast"
-  BgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1608672765/rbl-art-designs/pexels-anthony-leong-2092897-1920x_zxu8df.jpg"
+  /*BgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1608672765/rbl-art-designs/pexels-anthony-leong-2092897-1920x_zxu8df.jpg"*/
+  BgImage={FoodBowlBg}
   />
     <Section2Favs />
 <Fade top>
@@ -48,7 +59,7 @@ const Homepage = () => (
       bg="darkbrown"
       textColor="light"
       size="md"
-      bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1608675409/rbl-art-designs/oaxaca-3128326_1920_muaiuw_masihl.png"
+      bgImage={OaxacaBg}
       bgImageOpacity={0.05}
       title="Order Online"
       subtitle="Our online menu allows you to place an order for pickup, with the option to pay at checkout. Add-ons include delivery service!"
@@ -61,7 +72,7 @@ const Homepage = () => (
       description7=""
       buttonText="Get Started"
       buttonColor="yellow"
-      image="https://res.cloudinary.com/dexdumfqy/image/upload/v1608672765/rbl-art-designs/stock-photo-homemade-carne-asada-street-tacos-with-cheese-cilantro-and-onion-413734795-1500x1000_mqxj0e_irguci.jpg"
+      image={CarneTaco}
       link="/#"
       /*buttonOnClick={() => {
           // Navigate to pricing page

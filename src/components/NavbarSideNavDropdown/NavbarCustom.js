@@ -18,6 +18,7 @@ import navStyles from "./navbar.module.css";
 //import { LogoSquare } from "../images/index";
 
 import { FaHome } from "react-icons/fa";
+import LogoWhite from '../../images/generic-logo-white.png'
 
 //import TopBar from '../topBar'
 
@@ -51,7 +52,7 @@ const NavbarCustom = (props) => {
               <img
                 className={scroll ? "d-inline-block align-top navLogo" : "hide"}
                 /*src={LogoSquare}*/
-                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608665507/rbl-art-designs/generic-logo-white_sjpuyn.png"
+                src={LogoWhite}
                 alt="Via Del Web Logo"
               ></img>
             </Link>
@@ -60,7 +61,7 @@ const NavbarCustom = (props) => {
               <img
                 className={scroll ? "hide" : "d-inline-block align-top navLogo" }
                 /*src={LogoSquare}*/
-                src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608665507/rbl-art-designs/generic-logo-white_sjpuyn.png"
+                src={LogoWhite}
                 alt="Via Del Web Logo"
               ></img>
             </Link>

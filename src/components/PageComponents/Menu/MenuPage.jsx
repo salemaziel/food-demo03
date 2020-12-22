@@ -6,6 +6,7 @@ import MenuSectionImageBg from './MenuSectionImageBg'
 
 import BreakfastBg from '../../../images/background/bg-image-2.jpg'
 import Section4Dessert from './Section4Dessert'
+import LogoWhite from '../.././../images/generic-logo-white.png'
 
 const MenuPage = (props) => {
     return(
@@ -293,7 +294,7 @@ const MenuPage = (props) => {
       <section className="tm-bottom-e uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
         <div className="uk-width-1-1">
           <div className="uk-panel uk-text-center">
-            <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png" width={300} alt="demo" />
+            <img src={LogoWhite} width={300} alt="demo" />
           </div>
         </div>
       </section>

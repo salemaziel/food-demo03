@@ -4,6 +4,8 @@ import Overlay1 from '../../../images/demo/default/overlay/overlay-1.png'
 import {Link} from 'gatsby'
 import Fade from 'react-reveal/Fade'
 
+import LogoGray from '../../../images/generic-logo.png'
+
 const Section1Intro = (props) => {
     return(
         <>
@@ -12,7 +14,7 @@ const Section1Intro = (props) => {
   <div id="tm-logo">
     <div className="uk-container uk-container-center">
       <a className="tm-logo uk-hidden-small uk-flex uk-flex-middle uk-flex-center" href="index.html">
-        <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1608624001/rbl-art-designs/generic-logo_hvnuei.png" width={200} alt="demo" />
+        <img src={LogoGray} width={200} alt="demo" />
       </a>
     </div>
   </div>

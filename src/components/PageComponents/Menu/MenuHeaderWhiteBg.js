@@ -1,4 +1,5 @@
 import React from 'react'
+import Food1 from '../../../images/demo/menu/food-1.png'
 
 
 const MenuHeaderWhiteBg = (props) => {
@@ -7,10 +8,9 @@ const MenuHeaderWhiteBg = (props) => {
         <div data-uk-scrollspy="{cls:'uk-animation-slide-top', delay:100}">
           <img
             className
-            src="images/demo/menu/food-1.png"
+            src={Food1}
             alt="appetizers"
             width={300}
-            height={220}
           />
         </div>
         <br />
