@@ -48,7 +48,7 @@ const Homepage = () => (
       bg="darkbrown"
       textColor="light"
       size="md"
-      bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1600246423/rbl-art-designs/oaxaca-3128326_1920_muaiuw.png"
+      bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1608675409/rbl-art-designs/oaxaca-3128326_1920_muaiuw_masihl.png"
       bgImageOpacity={0.05}
       title="Order Online"
       subtitle="Our online menu allows you to place an order for pickup, with the option to pay at checkout. Add-ons include delivery service!"
