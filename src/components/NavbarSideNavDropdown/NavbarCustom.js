@@ -18,7 +18,7 @@ import navStyles from "./navbar.module.css";
 //import { LogoSquare } from "../images/index";
 
 import { FaHome } from "react-icons/fa";
-import LogoWhite from '../../images/generic-logo-white.png'
+import LogoWhite from "../../images/generic-logo-white.png";
 
 //import TopBar from '../topBar'
 
@@ -48,7 +48,7 @@ const NavbarCustom = (props) => {
       >
         <Container fluid>
           <Navbar.Brand>
-          <Link to="/" rel="preload">
+            <Link to="/" rel="preload">
               <img
                 className={scroll ? "d-inline-block align-top navLogo" : "hide"}
                 /*src={LogoSquare}*/
@@ -59,7 +59,7 @@ const NavbarCustom = (props) => {
 
             <Link to="/" rel="preload">
               <img
-                className={scroll ? "hide" : "d-inline-block align-top navLogo" }
+                className={scroll ? "hide" : "d-inline-block align-top navLogo"}
                 /*src={LogoSquare}*/
                 src={LogoWhite}
                 alt="Via Del Web Logo"
@@ -127,8 +127,8 @@ const NavbarCustom = (props) => {
                 </Nav.Link>
               </Nav.Item>
 
-              <Nav.Item to="/" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/menu" active={false}>
+              <Nav.Item to="/faq" className={navStyles.navItem}>
+                <Nav.Link as={Link} to="/faq" active={false}>
                   Faq
                 </Nav.Link>
               </Nav.Item>
@@ -184,7 +184,6 @@ const NavbarCustom = (props) => {
                 </NavDropdown.Item>
               </NavDropdown>*/}
 
-
               {/*<NavDropdown
                 as={Link}
                 href="/en/more"
@@ -210,12 +209,17 @@ const NavbarCustom = (props) => {
               </NavDropdown>*/}
             </Nav>
             <Nav className="mr-0">
-            <Nav.Item to="/#" className={navStyles.navItem}>
-                <Button secondary as={Link} to="/#" className="uk-button-primary uk-button-large uk-button" active={false}>
+              <Nav.Item to="/#" className={navStyles.navItem}>
+                <Button
+                  secondary
+                  as={Link}
+                  to="/#"
+                  className="uk-button-primary uk-button-large uk-button"
+                  active={false}
+                >
                   Contact Us
                 </Button>
               </Nav.Item>
-
             </Nav>
           </Navbar>
           <SideNav
@@ -243,70 +247,58 @@ const NavbarCustom = (props) => {
               backgroundColor: "transparent",
               color: "black",
               margin: "auto",
-              padding: '1rem',
+              padding: "1rem",
             }}
             items={[
               <Link rel="preload" className={navStyles.navItem} to="/">
                 <FaHome />
               </Link>,
-                            <Link
-                            rel="preload"
-                            className={navStyles.navItem}
-                            to="/menu"
-                          >
-                            Menu
-                          </Link>,
+              <Link rel="preload" className={navStyles.navItem} to="/menu">
+                Menu
+              </Link>,
 
-//            <FaqNav
-//            items={[
-//              {
-//                question: "Services",
-//                answer:
-//                  "",
-//                  listItem1: '',
-//                  listItem2: '',
-//                  linkTitle1: 'Item',
-//                  link1: '/#',
-//                  linkTitle2: 'Item',
-//                  link2: '/#',
-//                  linkTitle3: 'Item',
-//                  link3: '/#',
-//                  linkTitle4: 'Item',
-//                  link4: '/#',
-//                  linkTitle5: 'Item',
-//                  link5: '/#',
-//
-//              },
-//            ]}
-//          />,
+              //            <FaqNav
+              //            items={[
+              //              {
+              //                question: "Services",
+              //                answer:
+              //                  "",
+              //                  listItem1: '',
+              //                  listItem2: '',
+              //                  linkTitle1: 'Item',
+              //                  link1: '/#',
+              //                  linkTitle2: 'Item',
+              //                  link2: '/#',
+              //                  linkTitle3: 'Item',
+              //                  link3: '/#',
+              //                  linkTitle4: 'Item',
+              //                  link4: '/#',
+              //                  linkTitle5: 'Item',
+              //                  link5: '/#',
+              //
+              //              },
+              //            ]}
+              //          />,
 
-              <Link
-                rel="preload"
-                className={navStyles.navItem}
-                to="/#"
-              >
+              <Link rel="preload" className={navStyles.navItem} to="/faq">
                 Faq
               </Link>,
-                            <Link
-                            rel="preload"
-                            className={navStyles.navItem}
-                            to="/#"
-                          >
-                            Events
-                          </Link>,
-              <Link
-              rel="preload"
-              className={navStyles.navItem}
-              to="/#"
-            >
-              Gallery
-            </Link>,
-                          <Link rel="preload" className={navStyles.navItem} to="/">
-                          About Us
-                        </Link>,
-                        <Button as={Link} to="/contact" className="uk-button-primary uk-button-large uk-button btn-lg px-5 py-2">Contact</Button>
-
-
+              <Link rel="preload" className={navStyles.navItem} to="/#">
+                Events
+              </Link>,
+              <Link rel="preload" className={navStyles.navItem} to="/#">
+                Gallery
+              </Link>,
+              <Link rel="preload" className={navStyles.navItem} to="/">
+                About Us
+              </Link>,
+              <Button
+                as={Link}
+                to="/contact"
+                className="uk-button-primary uk-button-large uk-button btn-lg px-5 py-2"
+              >
+                Contact
+              </Button>,
             ]}
             itemStyle={{
               background: "transparent!important",

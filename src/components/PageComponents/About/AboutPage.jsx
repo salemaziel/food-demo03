@@ -5,10 +5,14 @@ import SectionTwo from './sectionTwo'
 import SectionThree from './sectionThree'
 
 
-const Pageage = () => (
+const AboutPage = (props) => {
+    return(
+        <>
+
+        </>
+    )
+}
 
 
 
-)
-
-export default Page
+export default AboutPage
