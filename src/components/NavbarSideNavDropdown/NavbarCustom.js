@@ -316,7 +316,7 @@ const NavbarCustom = (props) => {
             }}
             navStyle={{
               width: "70%",
-              background: "linear-gradient(60deg, #796867 0%, #271514 100%)",
+              background: "linear-gradient(60deg, rgba(121, 104, 103, 0.8) 0%, rgba(39, 21, 20, 1) 100%)",
               color: "inherit",
               maxHeight: "100vh",
             }}

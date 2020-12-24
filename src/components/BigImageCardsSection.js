@@ -26,19 +26,19 @@ function BigImageCardsSection(props) {
         <TeamBios3
           items={[
             {
-              image:"https://uploads.divjoy.com/pexels-52739-1125x750.jpeg",
-              name: "Food One",
-              role: "$6.99",
+              image:"https://images.unsplash.com/photo-1600473763749-5e4212ea0e69?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+              name: "Jose Luis",
+              role: "Cook",
             },
             {
-              image: "https://uploads.divjoy.com/pexels-52739-1125x750.jpeg",
-              name: "Lisa Zinn",
-              role: "Software Engineer",
+              image: "https://images.unsplash.com/photo-1548078835-cb7d27702c1f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+              name: "Maria",
+              role: "Owner & Cook",
             },
             {
-              image: "https://uploads.divjoy.com/pexels-7051-1125x750.jpeg",
-              name: "Sarah Howard",
-              role: "Designer",
+              image: "https://images.unsplash.com/photo-1532635211-8ec15f2ce05c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80",
+              name: "Edgar",
+              role: "Cook",
             },
           ]}
         />
