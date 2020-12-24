@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SectionHeader from "./SectionHeader";
 import Button from "react-bootstrap/Button";
+import Fade from 'react-reveal/Fade'
 
 function CtaSectionBgImage(props) {
   return (
@@ -16,14 +17,17 @@ function CtaSectionBgImage(props) {
       bgImageOpacity={props.bgImageOpacity}
     >
       <Container className="text-center">
+      <Fade top>
         <Row className="justify-content-center align-items-center">
           <Col xs={12} md="auto" className="py-3 px-4">
+
             <SectionHeader
               title={props.title}
               subtitle={props.subtitle}
               size={1}
               spaced={false}
             />
+
           </Col>
           <Col xs={12} md="auto" className="py-3 px-4">
             <Button
@@ -36,6 +40,7 @@ function CtaSectionBgImage(props) {
             </Button>
           </Col>
         </Row>
+        </Fade>
       </Container>
     </Section>
   );

@@ -17,6 +17,7 @@ const Section1Faq = (props) => {
             />
 
 
+
         </>
     )
 }

@@ -1,4 +1,4 @@
-.SectionHeader {
+.SectionHeader2 {
   // Add bottom margin if element below
   &:not(:last-child) {
     margin-bottom: 2rem;
@@ -15,7 +15,7 @@
   &__description {
     // Subtitle text generally isn't very long
     // so usually looks better to limit width.
-    color: white;
+    color: inherit;
     font-weight: bold;
     // So we can have max-width but still
     // have alignment controlled by text-align.
@@ -45,6 +45,6 @@
     padding-left: 0;
   }
   h1{
-    color: white;
+    color: inherit;
   }
 }

@@ -9,6 +9,8 @@ import SectionHeader2 from "./SectionHeaderFull/SectionHeader2";
 import "./HeroSectionTxtBtnRight.scss";
 import {Link} from 'gatsby'
 
+import Fade from 'react-reveal/Fade'
+
 function HeroSectionTxtBtnRight(props) {
   
   return (
@@ -36,6 +38,7 @@ function HeroSectionTxtBtnRight(props) {
               borderRadius: '5px'
             }}
           >
+            <Fade>
             <SectionHeader2
               title={props.title}
               subtitle={props.subtitle}
@@ -51,6 +54,7 @@ function HeroSectionTxtBtnRight(props) {
               spaced={true}
               style={{color: 'white!important'}}
             />
+            </Fade>
             <Button as={Link} to={props.link} className="py-3 px-5 btn-lg btn-block uk-button-primary uk-button">{props.buttonText}</Button>
 
           </Col>

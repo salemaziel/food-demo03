@@ -17,7 +17,8 @@ import SideNav from "react-simple-sidenav";
 import navStyles from "./navbar.module.css";
 //import { LogoSquare } from "../images/index";
 
-import { FaHome } from "react-icons/fa";
+
+import { FaHome, FaPhoneAlt, FaF } from "react-icons/fa";
 import LogoWhite from "../../images/generic-logo-white.png";
 
 //import TopBar from '../topBar'
@@ -115,8 +116,8 @@ const NavbarCustom = (props) => {
               defaultActiveKey="/"
               onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
             >
-              <Nav.Item to="/" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/" active={false}>
+              <Nav.Item to="/about" className={navStyles.navItem}>
+                <Nav.Link as={Link} to="/about" active={false}>
                   About Us
                 </Nav.Link>
               </Nav.Item>
@@ -132,14 +133,14 @@ const NavbarCustom = (props) => {
                   Faq
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item to="/" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/#" active={false}>
+              {/*<Nav.Item to="/" className={navStyles.navItem}>
+                <Nav.Link as={Link} to="/gallery" active={false}>
                   Gallery
                 </Nav.Link>
-              </Nav.Item>
+          </Nav.Item>*/}
 
               <Nav.Item to="/" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/#" active={false}>
+                <Nav.Link as={Link} to="/events" active={false}>
                   Events
                 </Nav.Link>
               </Nav.Item>
@@ -213,11 +214,11 @@ const NavbarCustom = (props) => {
                 <Button
                   secondary
                   as={Link}
-                  to="/#"
+                  to="/"
                   className="uk-button-primary uk-button-large uk-button"
                   active={false}
                 >
-                  Contact Us
+                  Order Online
                 </Button>
               </Nav.Item>
             </Nav>
@@ -281,23 +282,26 @@ const NavbarCustom = (props) => {
               //          />,
 
               <Link rel="preload" className={navStyles.navItem} to="/faq">
-                Faq
+                FAQ
               </Link>,
-              <Link rel="preload" className={navStyles.navItem} to="/#">
+              <Link rel="preload" className={navStyles.navItem} to="/events">
                 Events
               </Link>,
-              <Link rel="preload" className={navStyles.navItem} to="/#">
-                Gallery
-              </Link>,
-              <Link rel="preload" className={navStyles.navItem} to="/">
+              <Link rel="preload" className={navStyles.navItem} to="/about">
                 About Us
               </Link>,
               <Button
+              href="tel:555-555-5555"
+              className="uk-button-large uk-button btn-lg px-5 py-2"
+            >
+             <FaPhoneAlt className="pr-1" /> Call Order
+            </Button>,
+              <Button
                 as={Link}
-                to="/contact"
+                to="#"
                 className="uk-button-primary uk-button-large uk-button btn-lg px-5 py-2"
               >
-                Contact
+                Order Online
               </Button>,
             ]}
             itemStyle={{

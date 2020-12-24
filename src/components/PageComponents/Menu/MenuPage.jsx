@@ -9,10 +9,25 @@ import Section4Dessert from './Section4Dessert'
 import LogoWhite from '../.././../images/generic-logo-white.png'
 
 import Bg1 from '../../../images/background/bg-1.jpg'
+import Section from '../../Section'
+
+import BannerImage from '../../../images/jpg/pexels-ella-olsson-1640774.jpg'
+
+import WoodFloor1 from '../../../images/background/bg-1.jpg'
+import CtaSectionBgImage from '../../CtaSectionBgImage'
+import {navigateTo} from 'gatsby'
 
 const MenuPage = (props) => {
     return(
 <>
+<Section
+        bg=""
+        bgImage={BannerImage}
+        bgImageOpacity={1}
+        bgImageRepeat="no-repeat"
+        className=""
+        size="lg"
+        />
   {/* header-a * /}
   <div id="tm-header-a" className="tm-block-header-a uk-block uk-block-default tm-block-fullwidth tm-grid-collapse ">
     <div className="uk-container uk-container-center">
@@ -290,8 +305,11 @@ const MenuPage = (props) => {
       </section>
     </div>
   </div>*/}
+ 
+ 
+ 
   {/* bottom-e */}
-  <div id="tm-bottom-e" 
+  {/*<div id="tm-bottom-e" 
   className="tm-block-bottom-e uk-block uk-block-default tm-inner-shadow tm-overlay-secondary" 
   data-uk-parallax="{bg: '-200'}" 
   style={{backgroundImage: `url(${Bg1})`}}>
@@ -304,9 +322,23 @@ const MenuPage = (props) => {
         </div>
       </section>
     </div>
-  </div>
-  {/* offcanvas menu */}
+</div>*/}
   
+  <CtaSectionBgImage
+      bg="dark"
+      textColor="white"
+      size="md"
+      bgImage={WoodFloor1}
+      bgImageOpacity={0.8}
+      title="Order Online Now"
+      subtitle=""
+      buttonText="Get Started"
+      buttonColor="yellow"
+      buttonOnClick={() => {
+        // Navigate to pricing page
+        navigateTo("/#");
+      }}
+    />
 
 </>
     )

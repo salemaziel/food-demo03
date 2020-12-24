@@ -30,7 +30,7 @@ const Section1Intro = (props) => {
                 <h3 className="tm-quote">good food is like music to the stomach. Every bite makes you want to dance</h3>
               </div>
               </Fade>
-              <img className="tm-img-bottom" src={Dish6} alt="demo" width={200} height={160} /></div></div>
+              <img className="tm-img-bottom" src={Overlay1} alt="demo" width={200} height={160} /></div></div>
           <div className="uk-width-1-1 uk-width-medium-2-3">
           <Fade top>
             <div className="uk-panel uk-panel-box uk-text-center">
@@ -41,8 +41,8 @@ const Section1Intro = (props) => {
 
 
               <br />
-              <Link to="/menu" rel="preload" className="uk-button-primary uk-button-large uk-button" target="_self">See the menu</Link>
-              <Link to="/#" className="uk-button-secondary uk-margin-left uk-button-large uk-button" rel="preload" target="_self">Make reservations</Link>
+              <Link to="/menu" rel="preload" className="uk-button-primary uk-button-large uk-button btn-lg" target="_self">See Menu</Link>
+              <Link to="#" className="uk-button-secondary uk-margin-left uk-button-large uk-button btn-lg" rel="preload" target="_self">Order Online</Link>
               <img className="tm-img-bottom-right" src={Overlay1} alt="demo" width={250} height={185} />
             </div>
             </Fade>

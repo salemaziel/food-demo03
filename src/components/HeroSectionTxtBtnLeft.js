@@ -8,6 +8,7 @@ import Image from "react-bootstrap/Image";
 import SectionHeader2 from "./SectionHeaderFull/SectionHeader2";
 import "./HeroSectionTxtBtnRight.scss";
 import {Link} from 'gatsby'
+import Fade from 'react-reveal/Fade'
 
 function HeroSectionTxtBtnLeft(props) {
   
@@ -31,6 +32,7 @@ function HeroSectionTxtBtnLeft(props) {
               borderRadius: '5px'
             }}
           >
+            <Fade>
             <SectionHeader2
               title={props.title}
               subtitle={props.subtitle}
@@ -46,7 +48,8 @@ function HeroSectionTxtBtnLeft(props) {
               spaced={true}
               style={{color: 'black!important'}}
             />
-            <Button as={Link} to={props.link} className="py-3 px-5 btn-lg btn-block">{props.buttonText} </Button>
+            </Fade>
+            <Button as={Link} to={props.link} className="py-3 px-5 btn-lg btn-block uk-button-primary uk-button">{props.buttonText} </Button>
 
           </Col>
           <Col>

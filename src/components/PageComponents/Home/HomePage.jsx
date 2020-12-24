@@ -54,7 +54,6 @@ const Homepage = () => (
   BgImage={FoodBowlBg}
   />
     <Section2Favs />
-<Fade top>
     <HeroSectionTxtBtnRight
       bg="darkbrown"
       textColor="light"
@@ -73,36 +72,33 @@ const Homepage = () => (
       buttonText="Get Started"
       buttonColor="yellow"
       image={CarneTaco}
-      link="/#"
+      link="#"
       /*buttonOnClick={() => {
           // Navigate to pricing page
           navigateTo("/");
         }}*/
     />
     
-    </Fade>
 
 
 
 
 
-    <Fade top>
-    <CtaSectionBgImage
+    {/*<CtaSectionBgImage
       bg="dark"
       textColor="white"
       size="md"
       bgImage={WoodFloor1}
       bgImageOpacity={0.8}
-      title="Reserve A Table"
+      title="Order Online"
       subtitle=""
       buttonText="Get Started"
       buttonColor="yellow"
       buttonOnClick={() => {
         // Navigate to pricing page
-        navigateTo("/#");
+        navigateTo("#");
       }}
-    />
-    </Fade>
+    />*/}
   </>
 );
 
