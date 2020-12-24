@@ -31,6 +31,13 @@
     margin: -10rem auto auto 40rem;
     max-width: 500px;
 }
+@media screen and (min-width: 1000px) and (min-height: 1024px){
+    .logoHero {
+        width: 80%;
+        margin: -10rem auto auto auto;
+        max-width: 500px;
+    }
+}
 
 .navLogo {
 	height: 80px;

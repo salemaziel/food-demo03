@@ -20,7 +20,7 @@ const Hero = () => (
         /*imageSrc="https://res.cloudinary.com/dexdumfqy/image/upload/v1608672766/rbl-art-designs/pexels-ella-olsson-1640774_snwle8.jpg"*/
         imageSrc={HeroImage}
         isCentered={true}
-        isFixed={true}
+        isFixed={false}
         minHeight="100vh"
         opacity={0.2}
         color="#000"
