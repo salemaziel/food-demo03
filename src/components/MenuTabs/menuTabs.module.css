@@ -1,0 +1,16 @@
+.Tab {
+    color: brown;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin:auto;
+    font-family: 'Khand';
+
+}
+
+.Tab:active,
+.Tab:focus,
+.Tab:focus-within,
+.Tab:focus-visible {
+    background-color: brown!important;
+    color: white
+}

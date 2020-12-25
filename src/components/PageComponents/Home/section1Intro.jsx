@@ -6,9 +6,15 @@ import Fade from 'react-reveal/Fade'
 
 import LogoGray from '../../../images/generic-logo.png'
 
+import {Helmet} from 'react-helmet'
+
 const Section1Intro = (props) => {
     return(
         <>
+          <Helmet>
+  <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
+  </Helmet>
+
 <div>
   {/* logo */}
   <div id="tm-logo">
@@ -42,7 +48,15 @@ const Section1Intro = (props) => {
 
               <br />
               <Link to="/menu" rel="preload" className="uk-button-primary uk-button-large uk-button btn-lg" target="_self">See Menu</Link>
-              <Link to="#" className="uk-button-secondary uk-margin-left uk-button-large uk-button btn-lg" rel="preload" target="_self">Order Online</Link>
+              {/*<Link to="#" className="uk-button-secondary uk-margin-left uk-button-large uk-button btn-lg" rel="preload" target="_self">Order Online</Link>*/}
+              <span
+                  className="uk-button-secondary uk-margin-left uk-button-large uk-button btn-lg"
+                  data-glf-cuid="8e7c87fd-2ed0-44b4-9886-8626e340905e"
+                  data-glf-ruid="d3afdc87-1713-43aa-bd55-854fdf812f01"
+                >
+                  {" "}
+                  Order Online
+                </span>
               <img className="tm-img-bottom-right" src={Overlay1} alt="demo" width={250} height={185} />
             </div>
             </Fade>

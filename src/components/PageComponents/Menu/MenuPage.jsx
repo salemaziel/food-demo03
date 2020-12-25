@@ -16,6 +16,7 @@ import BannerImage from '../../../images/jpg/pexels-ella-olsson-1640774.jpg'
 import WoodFloor1 from '../../../images/background/bg-1.jpg'
 import CtaSectionBgImage from '../../CtaSectionBgImage'
 import {navigateTo} from 'gatsby'
+import MenuTabsSection from '../../MenuTabs/menuTabsSection'
 
 const MenuPage = (props) => {
     return(
@@ -51,33 +52,49 @@ const MenuPage = (props) => {
       </section>
     </div>
   </div>
-
-
+    */}
+<MenuTabsSection />
   {/* top-a */}
+
+{/*
+
 <Section1Menu />
 
+*/}
 
 
 
   {/* top-b */}
-
+{/*
   <MenuSectionImageBg
   Title="Morning Breakfast"
   Subtitle="Begin your day by indulging in a hearty breakfast"
   BgImage={BreakfastBg}
   />
+*/}
+
+
+
 
   {/* top-c */}
-
+{/*
       <Section2Menu />
+    */}
+
+
+
+
 
   {/* top-d */}
-
+{/*
   <MenuSectionImageBg
   Title="Main Course"
   Subtitle="We deliver hot meals to any location"
   BgImage={BreakfastBg}
   />
+
+
+*/}
 
   {/*<div id="tm-top-d" className="tm-block-top-d uk-block uk-block-default tm-block-fullwidth tm-grid-collapse">
     <div className="uk-container uk-container-center">
@@ -99,20 +116,30 @@ const MenuPage = (props) => {
     </div>*/}
 
 
+
   {/* main content */}
+{/*
+
 
   <Section3MainMenu />
+
+
+*/}
 
 
 
 
   {/* bottom-a */}
+
+  {/*
   <MenuSectionImageBg
   Title="Dessert &amp; Coffee"
   Subtitle="ENJOY THE VERY BEST IN DESSERTS AND COFFEE"
   BgImage={BreakfastBg}
   />
 
+
+*/}
 
   {/*<div id="tm-bottom-a" className="tm-block-bottom-a uk-block uk-block-default tm-block-fullwidth tm-grid-collapse">
     <div className="uk-container uk-container-center">
@@ -137,6 +164,10 @@ const MenuPage = (props) => {
   {/* bottom-b */}
 
 <Section4Dessert />
+
+
+
+
 
   {/*<div id="tm-bottom-b" className="tm-block-bottom-b uk-block uk-block-default">
     <div className="uk-container uk-container-center">

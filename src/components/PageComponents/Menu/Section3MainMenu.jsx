@@ -6,7 +6,7 @@ const Section3MainMenu = (props) => {
   return (
     <>
       <div id="tm-main" className="tm-block-main uk-block uk-block-default">
-    <div className="uk-container uk-container-center">
+    <div className="uk-container-center">
       <div className="tm-middle uk-grid" data-uk-grid-match data-uk-grid-margin>
         <div className="tm-main uk-width-medium-1-1">
           <main id="tm-content" className="tm-content">

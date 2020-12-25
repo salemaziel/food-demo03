@@ -9,7 +9,7 @@ const Section4Dessert = (props) => {
     return(
         <>
 <div id="tm-bottom-b" className="tm-block-bottom-b uk-block uk-block-default">
-    <div className="uk-container uk-container-center">
+    <div className=" uk-container-center">
       <section className="tm-bottom-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
         <div className="uk-width-1-1">
           <div className="uk-panel">

@@ -1,8 +1,22 @@
 
+
+
+/************** Menu Tabs ******************/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: brown;
+}
+
+
+
+
+
+
+
 /*************** Colors ********************/
 
 .bg-darkbrown {
-    background-color: #271514;
+    background-color: #271514!important;
 }
 
 .bg-brownseethru {
@@ -11,7 +25,7 @@
 }
 
 .btn-yellow {
-    background-color: #d2c82a;
+    background-color: #d2c82a!important;
     color: white;
     border-color: #d2c82a;
 }

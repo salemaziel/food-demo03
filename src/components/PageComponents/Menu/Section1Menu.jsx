@@ -7,7 +7,7 @@ const Section1Menu = (props) => {
   return (
     <>
       <div id="tm-top-a" className="tm-block-top-a uk-block uk-block-default">
-        <div className="uk-container uk-container-center">
+        <div className="uk-container-center">
           <section
             className="tm-top-a uk-grid"
             data-uk-grid-match="{target:'> div > .uk-panel'}"

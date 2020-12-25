@@ -14,6 +14,7 @@ import WoodFloor1 from '../../../images/background/bg-1.jpg'
 import CtaSectionBgImage from '../../CtaSectionBgImage'
 import {navigateTo} from 'gatsby'
 
+
 const AboutPage = (props) => {
     return(
         <>
@@ -25,6 +26,8 @@ const AboutPage = (props) => {
         className=""
         size="lg"
         />
+
+
                   <HeroSectionTextOnly
           className="font-weight-bold"
       bg=""

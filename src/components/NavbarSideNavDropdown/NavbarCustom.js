@@ -17,13 +17,14 @@ import SideNav from "react-simple-sidenav";
 import navStyles from "./navbar.module.css";
 //import { LogoSquare } from "../images/index";
 
-
 import { FaHome, FaPhoneAlt, FaF } from "react-icons/fa";
 import LogoWhite from "../../images/generic-logo-white.png";
 
 //import TopBar from '../topBar'
 
 //then
+
+import {Helmet} from 'react-helmet'
 
 const NavbarCustom = (props) => {
   const [showNav, setShowNav] = useState();
@@ -37,6 +38,10 @@ const NavbarCustom = (props) => {
 
   return (
     <>
+  <Helmet>
+  <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
+  </Helmet>
+
       <Navbar
         fixed
         bg={scroll ? "darkbrown" : "brownseethru"}
@@ -210,7 +215,7 @@ const NavbarCustom = (props) => {
               </NavDropdown>*/}
             </Nav>
             <Nav className="mr-0">
-              <Nav.Item to="/#" className={navStyles.navItem}>
+              {/*<Nav.Item to="/#" className={navStyles.navItem}>
                 <Button
                   secondary
                   as={Link}
@@ -220,6 +225,18 @@ const NavbarCustom = (props) => {
                 >
                   Order Online
                 </Button>
+            </Nav.Item>*/}
+
+              <Nav.Item className={navStyles.navItem}>
+                <span
+                  className="uk-button-primary uk-button-large uk-button btn-lg btn-block"
+                  data-glf-cuid="8e7c87fd-2ed0-44b4-9886-8626e340905e"
+                  data-glf-ruid="d3afdc87-1713-43aa-bd55-854fdf812f01"
+                >
+                  {" "}
+                  Order Online
+                </span>
+
               </Nav.Item>
             </Nav>
           </Navbar>
@@ -291,18 +308,21 @@ const NavbarCustom = (props) => {
                 About Us
               </Link>,
               <Button
-              href="tel:555-555-5555"
-              className="uk-button-large uk-button btn-lg px-5 py-2"
-            >
-             <FaPhoneAlt className="pr-1" /> Call Order
-            </Button>,
-              <Button
-                as={Link}
-                to="#"
-                className="uk-button-primary uk-button-large uk-button btn-lg px-5 py-2"
+                href="tel:555-555-5555"
+                className="uk-button-large uk-button btn-lg px-5 py-2"
               >
-                Order Online
+                <FaPhoneAlt className="pr-1" /> Call Order
               </Button>,
+              <div>
+                <span
+                  className="uk-button-primary uk-button-large uk-button btn-lg px-5 py-2"
+                  data-glf-cuid="8e7c87fd-2ed0-44b4-9886-8626e340905e"
+                  data-glf-ruid="d3afdc87-1713-43aa-bd55-854fdf812f01"
+                >
+                  {" "}
+                  Order Online
+                </span>
+              </div>,
             ]}
             itemStyle={{
               background: "transparent!important",
@@ -316,7 +336,8 @@ const NavbarCustom = (props) => {
             }}
             navStyle={{
               width: "70%",
-              background: "linear-gradient(60deg, rgba(121, 104, 103, 0.8) 0%, rgba(39, 21, 20, 1) 100%)",
+              background:
+                "linear-gradient(60deg, rgba(121, 104, 103, 0.8) 0%, rgba(39, 21, 20, 1) 100%)",
               color: "inherit",
               maxHeight: "100vh",
             }}
