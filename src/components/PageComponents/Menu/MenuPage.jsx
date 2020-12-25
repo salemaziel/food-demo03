@@ -17,6 +17,7 @@ import WoodFloor1 from '../../../images/background/bg-1.jpg'
 import CtaSectionBgImage from '../../CtaSectionBgImage'
 import {navigateTo} from 'gatsby'
 import MenuTabsSection from '../../MenuTabs/menuTabsSection'
+import { Container } from 'react-bootstrap'
 
 const MenuPage = (props) => {
     return(
@@ -162,9 +163,9 @@ const MenuPage = (props) => {
 
 
   {/* bottom-b */}
-
+<Container>
 <Section4Dessert />
-
+</Container>
 
 
 

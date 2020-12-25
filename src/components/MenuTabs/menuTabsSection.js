@@ -13,11 +13,13 @@ const MenuTabsSection = (props) =>{
             bgImage=""
             size="sm"
             >
-                <Container fluid>
+                <Container fluid="md">
                 <SectionHeader
                 title="Menu"
                 subtitle="Open Every Day: 9am - 9pm"
-                textColor="dark" />
+                textColor="dark" 
+                className="text-center"
+                />
                 <MenuTabs />
                 </Container>
             </Section>
